@@ -1,0 +1,16 @@
+html
+    body
+        h1 User List using pug engine!
+
+    div
+            for user in users
+                p= user.first_name
+                p= user.last_name
+                p= user.email
+                p= user.mobile_no
+                p= user.date_of_birth
+                p= '-----------------'
+           
+
+        
+
